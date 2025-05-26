@@ -1,0 +1,27 @@
+/* Header styles */
+#mainHeader {
+  background: linear-gradient(to right, #007BFF, #6610f2);
+  color: white;
+  padding: 20px;
+}
+
+/* Card styles */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* Button */
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
