@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Portal</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us at info@community.org</p>
+  </footer>
+</body>
+</html>
