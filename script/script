@@ -1,0 +1,24 @@
+// Welcome message in the console
+console.log("Welcome to the Community Portal");
+
+// Alert when the page is fully loaded
+window.onload = function () {
+  alert("Page fully loaded");
+};
+
+// Handle form submission
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const output = document.querySelector("output");
+  output.value = "Registration successful!";
+});
+
+// Log event fee when dropdown changes
+document.getElementById("eventDropdown").onchange = function () {
+  console.log("Event fee: $" + this.value);
+};
+
+// Alert when submit button is clicked
+document.getElementById("submitBtn").onclick = function () {
+  alert("Form submitted!");
+};
